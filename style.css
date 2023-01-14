@@ -4,12 +4,17 @@
     box-sizing: border-box;
 
 }
+body{
+    background-color: black;
+}
+
 #first{
-    border-right: 1px solid grey;
-    height: 400vh;
+    border: 1px solid grey;
+    height: 300vh;
     width: 320px;
     background-color: grey;
-    overflow-y:scroll;
+   position: fixed;
+    border-radius: 44px;
    
 }
 #image{
@@ -68,4 +73,81 @@
    margin-left:30px;
    color: gray;
    background-color: rgb(7, 7, 7);
+}
+#second{
+    position: relative;
+    left:340px;
+    border:1px solid black;
+    width:850px;
+    height:550px;
+    border-radius: 30px;
+    background-color: rgb(124, 123, 123);
+    margin-top: 20px;
+}
+#head{
+    font-size:25px;
+    color:white;
+    font-weight: 550;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+#imgs{
+    position: relative;
+     top:-327px;
+     left:295px;
+    width:400px;
+    height: 400px;
+}
+#para{
+    width:370px;
+    font-size: 18px;
+    padding-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 45px;
+    color: rgb(49, 48, 48);
+}
+#anchor{
+    position: relative;
+    top:-380px;
+    padding-left: 30px;
+    color: rgb(60, 57, 57);
+}
+#third{
+    color:black;
+    position:relative;
+    top:40px;
+    left:350px;
+    border: 1px solid black;
+    width: 850px;
+    border-radius: 30px;
+    height:500px;
+    background-color: rgb(124, 123, 123);
+}
+#theads{
+    font-size: 25px;
+    font-weight: 550;
+    padding-left: 40px;
+    padding-top:50px;
+    color: white;
+}
+table{
+    margin-left: 40px;
+    width:760px;
+    margin-top: 30px;
+    
+}
+table,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: rgb(47, 47, 47);
+
+
+}
+th{
+    padding: 15px;
+}
+td{
+    padding: 30px;
+    padding-left:70px ;
+    
 }
